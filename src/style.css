@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&family=Poppins:wght@100&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(134, 207, 207);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: 22px;
+}
+
+.solar-system {
+    display: inline-block;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.plan {
+    display: flex;
+}
+
+img {
+    width: 230px;
+}
+
+.missions {
+    display: block;
+    justify-content: space-between;
+}
+
+.card {
+    position: sticky;
+    margin-top: 8px;
+    margin-right: 30px;
+    display: inline-block;
+    width: 250px;
+    height: 370px;
+    margin-left: 20px;
+    background-color: rgb(83, 171, 198);
+    border-radius: 7px;
+}
+
+p { 
+    font-family: 'Courier New', Courier, monospace;
+    margin: 35px;
+    font-size: 1.2em;
+}
