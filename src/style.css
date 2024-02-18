@@ -1,51 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&family=Poppins:wght@100&family=Roboto:wght@400;700&display=swap');
-
 body {
-    background-color: orange;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Oxygen', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    background-image: url(./images/background.png);
 }
 
-header {
-    text-align: center;
-    font-size: 22px;
-}
-
-.solar-system {
-    display: inline-block;
-    justify-content: center;
-    align-items: last baseline;
-}
-
-.plan {
+.title {
     display: flex;
+    justify-content: center;
+    color: wheat;
+    font-size: 30px;
+    font-family: sans-serif;
 }
 
-img {
-    width: 230px;
-}
-
-.missions {
-    display: block;
+.planetCard {
+    display: flex;
     justify-content: space-between;
 }
 
-.card {
-    position: sticky;
-    margin-top: 8px;
-    margin-right: 30px;
-    display: inline-block;
-    width: 250px;
-    height: 370px;
-    margin-left: 20px;
-    background-color: rgb(83, 171, 198);
-    border-radius: 7px;
+.planets {
+    color: wheat;
+    font-family: sans-serif;
+    margin-left: 35px;
+    font-size: 40px;
 }
 
-p { 
-    font-family: 'Courier New', Courier, monospace;
-    margin: 35px;
-    font-size: 1.2em;
+.planetName {
+    color: wheat;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.missions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.missionCard {
+    background-color: rgb(142, 142, 175);
+    margin-left: 20px;
+    margin-top: 25px;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.detailsMission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+p {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: sans-serif;
 }

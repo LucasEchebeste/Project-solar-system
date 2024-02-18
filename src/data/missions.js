@@ -120,7 +120,7 @@ const Missions = [
   {
     name: 'Telescópio Espacial James Webb',
     year: '2021',
-    country: 'Estados Unidos, União Europeia e Canadá',
+    country: 'EUA, União Europeia e Canadá',
     destination: INTERESTELAR,
   },
 ];
